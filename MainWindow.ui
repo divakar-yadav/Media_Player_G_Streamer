@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Multimedia Application</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+
+    <!-- Video Path Input for First Video -->
+    <item>
+     <widget class="QLineEdit" name="videoPathInput1">
+      <property name="placeholderText">
+       <string>Enter path of first video</string>
+      </property>
+     </widget>
+    </item>
+
+    <!-- Play First Video Button -->
+    <item>
+     <widget class="QPushButton" name="playButton1">
+      <property name="text">
+       <string>Play First Video</string>
+      </property>
+      <property name="icon">
+       <iconset resource="play-icon.png"/>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #0066cc; color: white; padding: 5px;</string>
+      </property>
+     </widget>
+    </item>
+
+    <!-- Video Player Area for First Video -->
+    <item>
+     <widget class="QWidget" name="videoPlayer1" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>400</width>
+        <height>200</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: black;</string>
+      </property>
+     </widget>
+    </item>
+
+    <!-- Video Path Input for Second Video -->
+    <item>
+     <widget class="QLineEdit" name="videoPathInput2">
+      <property name="placeholderText">
+       <string>Enter path of second video</string>
+      </property>
+     </widget>
+    </item>
+
+    <!-- Play Both Videos Button -->
+    <item>
+     <widget class="QPushButton" name="playButton2">
+      <property name="text">
+       <string>Play Both Videos</string>
+      </property>
+      <property name="icon">
+       <iconset resource="play-icon.png"/>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #0066cc; color: white; padding: 5px;</string>
+      </property>
+     </widget>
+    </item>
+
+    <!-- Video Player Area for Second Video -->
+    <item>
+     <widget class="QWidget" name="videoPlayer2" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>400</width>
+        <height>200</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: black;</string>
+      </property>
+     </widget>
+    </item>
+
+    <!-- Combine Videos Button -->
+    <item>
+     <widget class="QPushButton" name="combineButton">
+      <property name="text">
+       <string>Combine Videos</string>
+      </property>
+      <property name="icon">
+       <iconset resource="play-icon.png"/>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #0066cc; color: white; padding: 5px;</string>
+      </property>
+     </widget>
+    </item>
+
+   </layout>
+  </widget>
+
+  <!-- Menu Bar -->
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+
+  <!-- Status Bar -->
+  <widget class="QStatusBar" name="statusbar"/>
+
+ </widget>
+ <resources>
+  <!-- Resource files for icons -->
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

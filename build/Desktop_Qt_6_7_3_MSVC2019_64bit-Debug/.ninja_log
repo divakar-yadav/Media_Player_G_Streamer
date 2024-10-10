@@ -1,0 +1,22 @@
+# ninja log v5
+36	127	0	C:/Users/User/Documents/Media_Player/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/CMakeFiles/cmake.verify_globs	5ed52221245a8103
+200	547	7501598911370162	C:/Users/User/Documents/Media_Player/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/Media_Player_autogen/mocs_compilation.cpp	216c6e94e6d4323b
+200	547	7501598911370162	Media_Player_autogen/timestamp	216c6e94e6d4323b
+575	5486	7501581291399150	CMakeFiles/Media_Player.dir/videoplayer.cpp.obj	a33cc5615845f6bb
+7248	7678	7501599003564346	Media_Player.exe	8e7b65d7c7a6a985
+1657	7685	7501598483439509	CMakeFiles/Media_Player.dir/mainwindow.cpp.obj	48f7a63a2f278feb
+200	547	7501598911370162	Media_Player_autogen/mocs_compilation.cpp	216c6e94e6d4323b
+200	547	7501598911370162	C:/Users/User/Documents/Media_Player/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/Media_Player_autogen/timestamp	216c6e94e6d4323b
+1650	7727	7501598483908233	CMakeFiles/Media_Player.dir/Media_Player_autogen/mocs_compilation.cpp.obj	768a3b8b15b19709
+109	153	0	CMakeFiles/clean.additional	baedbe210acaa455
+153	173	0	clean	423d399e6810f01
+163	1425	7501624292500430	build.ninja	e74efcab5529ad3e
+571	7247	7501598999970884	CMakeFiles/Media_Player.dir/DualVideoPlayerScreen.cpp.obj	e7c6ce9bc787eeb
+3061	13564	7501579047184785	CMakeFiles/Media_Player.dir/SingleVideoPlayerScreen.cpp.obj	a240c1b44979a951
+3946	13587	7501568270636856	CMakeFiles/Media_Player.dir/Main.cpp.obj	eb9d9418738ee4a7
+3076	13870	7501579050263551	CMakeFiles/Media_Player.dir/CombinedVideoPlayerScreen.cpp.obj	ec56c3caebdfa252
+29	121	0	C:/Users/User/Documents/Media_Player/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/CMakeFiles/cmake.verify_globs	5ed52221245a8103
+137	388	7501624271211716	Media_Player_autogen/timestamp	216c6e94e6d4323b
+137	388	7501624271211716	Media_Player_autogen/mocs_compilation.cpp	216c6e94e6d4323b
+137	388	7501624271211716	C:/Users/User/Documents/Media_Player/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/Media_Player_autogen/timestamp	216c6e94e6d4323b
+137	388	7501624271211716	C:/Users/User/Documents/Media_Player/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/Media_Player_autogen/mocs_compilation.cpp	216c6e94e6d4323b
